@@ -1,0 +1,9 @@
+<h1>{title}</h1>
+<ul>
+{#videos}
+
+<li>{.snippet.title}</li>
+<li>{.snippet.description}</li>
+<li><img src="{.snippet.thumbnails.high.url}"/></li>
+{/videos}
+</ul>
